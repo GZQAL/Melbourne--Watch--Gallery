@@ -1,0 +1,151 @@
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  margin: 20px 0;
+}
+.header {
+  display: grid;
+  grid-template-columns: 120px 330px;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+  background-color: burlywood;
+}
+.navbar-expand-lg a {
+  font-size: large;
+  font-weight: bold;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 1000px) {
+  .main_container {
+    grid-template-columns: 1fr;
+  }
+}
+.m-5 {
+  border: solid 1px grey;
+  text-align: center;
+  border-radius: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2,
+h3 {
+  font-size: 20px;
+}
+.m-1 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 10px;
+}
+.box1 {
+  color: white;
+  background-color: rgb(5, 78, 78);
+  border: 0;
+  font-weight: bold;
+}
+.m-6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 3.5fr 0.7fr 0.3fr;
+  border: solid 2px beige;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 227);
+}
+
+.m-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+}
+.m-3 {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 0.5fr;
+  grid-template-rows: 4fr 1fr;
+}
+.box2 {
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+.box3 {
+  color: white;
+  background-color: rgb(92, 92, 92);
+  border: 0;
+  grid-column-start: 2;
+  height: 25px;
+}
+.box4 {
+  background-color: rgb(242, 242, 178);
+  height: 80px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.amount {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 0 30px 0;
+}
+h4 {
+  font-size: 30px;
+}
+.total {
+  justify-self: start;
+}
+.price1 {
+  justify-self: end;
+}
+.box5 {
+  color: white;
+  background-color: rgb(42, 126, 80);
+  border: 0;
+  width: 300px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.product1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 8fr 2fr;
+}
+.box6 {
+  color: white;
+  background-color: rgb(64, 64, 224);
+  border: 0;
+  margin: 20px;
+  font-size: 20px;
+}
+h5 {
+  font-size: 40px;
+}
+p {
+  padding-right: 20px;
+  font-size: 20px;
+}
+.box7 {
+  border: solid 1px grey;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+.page {
+  background-color: rgb(241, 222, 225);
+}
+.img2 {
+  padding-left: 100px;
+}
+.price {
+  font-size: 40px;
+}
+.aboutpage {
+  font-size: 30px;
+  color: darkmagenta;
+}
